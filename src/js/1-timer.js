@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
   flatpickr(datetimePicker, {
     enableTime: true,
     time_24hr: true,
+    defaultDate: new Date(),
     minuteIncrement: 1,
     onClose: function (selectedDates) {
       const selectedDate = selectedDates[0];
